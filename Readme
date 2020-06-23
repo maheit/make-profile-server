@@ -1,0 +1,18 @@
+Pre-Request : 
+    Check node js installed your system. => "node --version"
+
+
+Steps:
+1. Create a folder for project and open terminal at created folder path.
+2. Run => npm init
+3. Now Package.json file will be created and install typescript (you can use eigther npm or yarn).
+4. Run => yarn add typescript -D (or) npm i -D typescript
+5. To use typescript feature, we have to create tsconfig.json. It give some details to tsc compiler.
+6. Run => npx tsc --init. (Now tsconfig.json files will be created. Check and if want edit tsconfig.json config );
+
+
+Setting up ESLint to work with TypeScript:
+1. yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --dev
+2. Next, add an .eslintrc.js configuration file in the root project directory.
+OR 
+You can RUN => npx eslint --init
