@@ -5,7 +5,8 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -17,6 +18,7 @@
     ],
     "rules": {
         "prettier/prettier": "error",
-        "semi": ["error", "always", {"omitLastInOneLineBlock": true}]
+        "semi": ["error", "always", {"omitLastInOneLineBlock": true}],
+        "block-spacing": ["error", "always"]
     }
 }

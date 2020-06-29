@@ -16,3 +16,6 @@ Setting up ESLint to work with TypeScript:
 2. Next, add an .eslintrc.js configuration file in the root project directory.
 OR 
 You can RUN => npx eslint --init
+
+Check prettier integration with Lint :
+https://prettier.io/docs/en/integrating-with-linters.html
